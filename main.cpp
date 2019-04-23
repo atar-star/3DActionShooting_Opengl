@@ -10,7 +10,7 @@
 #include <vector>
 #include <windows.h>
 #include <random>
-#include "FPS.h""
+#include "FPS.h"
 #include "OBB.h"
 #include "chara.h"
 
@@ -121,11 +121,11 @@ int points = 0;
 int fps_n;
 
 OBBCube eye;
-Vec3 vEye; // ƒJƒƒ‰À•W
+Vec3 vEye; // ã‚«ãƒ¡ãƒ©åº§æ¨™
 
 FPS *fps = new FPS(60, false);
 
-// –@üƒxƒNƒgƒ‹‚Í‘S‚Ä X = 1
+// æ³•ç·šãƒ™ã‚¯ãƒˆãƒ«ã¯å…¨ã¦ X = 1
 void Init(void) {
 	glClearColor(0.0, 0.0, 1.0, 0.0);
 	glEnable(GL_DEPTH_TEST);
